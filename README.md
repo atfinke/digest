@@ -1,3 +1,3 @@
 # digest
 
-pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+Generates a daily gmail unread digest. Install using: `pip install -r requirements.txt`.
