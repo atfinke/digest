@@ -1,6 +1,6 @@
 # digest
 
-Generates a daily gmail unread digest. Install using `pip install -r requirements.txt`.
+Generates a daily gmail unread digest. Perfect for abandoned university accounts. Install using `pip install -r requirements.txt`.
 
 Email format: 
 ```
