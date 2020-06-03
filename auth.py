@@ -24,3 +24,6 @@ def load_creds():
         with open('configuration/token.pickle', 'wb') as token:
             pickle.dump(creds, token)
     return creds
+
+if __name__ == '__main__':
+    load_creds()

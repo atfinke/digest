@@ -130,6 +130,9 @@ def job_try():
 
 schedule.every().day.at('22:00').do(job_try)
 if __name__ == '__main__':
+    print('first run')
+    job_try()
     while True:
+        print('waiting')
         schedule.run_pending()
         time.sleep(60 * 10)
