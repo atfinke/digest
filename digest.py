@@ -66,7 +66,7 @@ def send_email(service, report_messages, count):
     for label, subjects in report_messages.items():
         digest += digest_str(label, subjects)
 
-    digest += '<br>/eom</body></html>'
+    digest += '<a href="https://mail.google.com/mail/u/1/#inbox">Open</a><br><br>/eom</body></html>'
     date = datetime.now()
 
     message = MIMEText(digest, 'html')
