@@ -128,7 +128,7 @@ def job_try():
     except Exception as exc:
         print('Unexpected error: {}'.format(exc))
 
-schedule.every().day.at('22:00').do(job_try)
+schedule.every().sunday.at('14:00').do(job_try)
 if __name__ == '__main__':
     print('first run')
     job_try()
